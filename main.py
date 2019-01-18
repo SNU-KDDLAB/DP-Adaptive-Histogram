@@ -160,9 +160,6 @@ def get_DPtable(data):
     return SSE
 
 if __name__ == '__main__':
-    DPtable = get_DPtable([10, 30, 20, 40, 10])
-    print(DPtable.T)
-    exit()
     seed = 0
     dataset = np.load("dataset/1D/HEPTH.n4096.npy")
     T = 4
